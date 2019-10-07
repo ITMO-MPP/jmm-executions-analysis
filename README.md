@@ -87,7 +87,7 @@ class A {
 Thread 1:
 =========
 A a1 = A.getInstance();
-a1.incX();
+print(a1.incX());
 
 
 Thread 2:
